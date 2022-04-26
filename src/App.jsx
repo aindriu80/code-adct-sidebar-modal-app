@@ -10,7 +10,7 @@ function App() {
       <h2>Sidebar Modal App</h2>
       <Modal />
       <Sidebar />
-      <Home />
+      {/* <Home /> */}
     </>
   );
 }

@@ -3,8 +3,13 @@ import { FaTimes } from 'react-icons/fa';
 
 const Modal = () => {
   return (
-    <div>
-      <h3>Modal</h3>
+    <div className={`modal-overlay`}>
+      <div className='modal-container'>
+        <h3>Modal Content</h3>
+        <button className='close-modal-btn'>
+          <FaTimes />
+        </button>
+      </div>
     </div>
   );
 };
