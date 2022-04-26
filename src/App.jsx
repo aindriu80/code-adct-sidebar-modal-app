@@ -7,10 +7,9 @@ import './App.css';
 function App() {
   return (
     <>
-      <h2>Sidebar Modal App</h2>
+      <Home />
       <Modal />
       <Sidebar />
-      {/* <Home /> */}
     </>
   );
 }
